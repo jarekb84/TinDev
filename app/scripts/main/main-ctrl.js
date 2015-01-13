@@ -22,6 +22,7 @@ angular.module('tinDev')
       var item = getItemFromArray();
 
       item.points++;
+      item.votes++;
       $scope.frameworks.$save(item);
 
       getRandomFramework();
@@ -31,6 +32,7 @@ angular.module('tinDev')
       var item = getItemFromArray();
 
       item.points--;
+      item.votes++;
       $scope.frameworks.$save(item);
 
       getRandomFramework();
