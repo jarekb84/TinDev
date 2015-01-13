@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db842d84-1013-46b6-b94d-b133765ae1d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/agility.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/ampersand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/angular.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/angular.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/backbone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/bootstrap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/bootstrap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/browsersync.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/canjs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/dojo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/ember.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/firebase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/flight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/foundation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/grunt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/gulp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/jasmine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/jquery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/karma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/knockback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/knockout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/maria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/meteor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/mithril.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/polymer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/protractor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/react.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/requier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/socketstream.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/tindev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/underscore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/vanilla.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/vue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/yeoman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/yeoman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logos/yui.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/TinDev.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/TinDev_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/e2e-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/main/main-ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/e2e/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/protractor.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/tinDev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/unit-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/wiredep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TinDev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="844">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="200">
               <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
@@ -142,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.0" vertical-offset="377" max-vertical-offset="1300">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.07657143" vertical-offset="313" max-vertical-offset="1300">
+              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -165,6 +94,7 @@
         <option value="$PROJECT_DIR$/app/scripts/main/main-ctrl.js" />
         <option value="$PROJECT_DIR$/app/partials/main.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -177,10 +107,10 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-1929" />
+    <option name="y" value="111" />
     <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -326,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-1929" y="111" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -437,14 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.0" vertical-offset="377" max-vertical-offset="1300">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main/main-ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1000">
@@ -469,6 +391,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="844">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07657143" vertical-offset="313" max-vertical-offset="1300">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
           <folding />
         </state>
       </provider>
