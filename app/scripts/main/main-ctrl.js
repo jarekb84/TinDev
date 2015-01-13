@@ -8,58 +8,119 @@ angular.module('tinDev')
     var ref = new Firebase('https://<your-firebase>.firebaseio.com/');
     var sync = $firebase(ref);
 
+    $scope.currentFramework = {};
     $scope.frameworks = [
       {
         'key': 'angular',
         'title': 'AngularJS',
-        'url': 'https://angularjs.org/',
-        'description': 'HTML enhanced for web apps!',
-        'logo': 'angular.png'
-      },
-      {
-        'key': 'browsersync',
-        'title': 'BrowserSync',
-        'url': 'http://browsersync.io/',
-        'description': 'Time-saving synchronised browser testing.',
-        'logo': 'browsersync.png'
-      },
-      {
-        'key': 'gulp',
-        'title': 'GulpJS',
-        'url': 'http://gulpjs.com/',
-        'description': 'The streaming build system.',
-        'logo': 'gulp.png'
-      },
-      {
-        'key': 'jasmine',
-        'title': 'Jasmine',
-        'url': 'http://jasmine.github.io/',
-        'description': 'Behavior-Driven JavaScript.',
-        'logo': 'jasmine.png'
-      },
-      {
-        'key': 'karma',
-        'title': 'Karma',
-        'url': 'http://karma-runner.github.io/',
-        'description': 'Spectacular Test Runner for JavaScript.',
-        'logo': 'karma.png'
-      },
-      {
-        'key': 'protractor',
-        'title': 'Protractor',
-        'url': 'https://github.com/angular/protractor',
-        'description': 'End to end test framework for AngularJS applications built on top of WebDriverJS.',
-        'logo': 'protractor.png'
+        'url': 'images/logos/angular.png',
+        points:0
       },
       {
         'key': 'bootstrap',
-        'title': 'Bootstrap',
-        'url': 'http://getbootstrap.com/',
-        'description': 'Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.',
-        'logo': 'bootstrap.png'
-      }
+        'title': 'bootstrap',
+        'url': 'images/logos/bootstrap.png',
+        points:0
+      },
+      {
+        'key': 'canjs',
+        'title': 'canjs',
+        'url': 'images/logos/canjs.png',
+        points:0
+      },
+      {
+        'key': 'dojo',
+        'title': 'dojo',
+        'url': 'images/logos/dojo.png',
+        points:0
+      },
+      {
+        'key': 'ember',
+        'title': 'ember',
+        'url': 'images/logos/ember.png',
+        points:0
+      },
+      {
+        'key': 'firebase',
+        'title': 'firebase',
+        'url': 'images/logos/firebase.png',
+        points:0
+      },
+      {
+        'key': 'foundation',
+        'title': 'foundation',
+        'url': 'images/logos/foundation.png',
+        points:0
+      },
+      {
+        'key': 'grunt',
+        'title': 'grunt',
+        'url': 'images/logos/grunt.png',
+        points:0
+      },
+      {
+        'key': 'ionic',
+        'title': 'ionic',
+        'url': 'images/logos/ionic.png',
+        points:0
+      },
+      {
+        'key': 'jquery',
+        'title': 'jquery',
+        'url': 'images/logos/jquery.png',
+        points:0
+      },
+      {
+        'key': 'knockout',
+        'title': 'knockout',
+        'url': 'images/logos/knockout.png',
+        points:0
+      },
+      {
+        'key': 'react',
+        'title': 'react',
+        'url': 'images/logos/react.png',
+        points:0
+      },
+      {
+        'key': 'yeoman',
+        'title': 'yeoman',
+        'url': 'images/logos/yeoman.png',
+        points:0
+      },
+      {
+        'key': 'vanillajs',
+        'title': 'vanillajs',
+        'url': 'images/logos/vanilla.png',
+        points:0
+      },
+      {
+        'key': 'yui',
+        'title': 'yui',
+        'url': 'images/logos/yui.png',
+        points:0
+      },
     ];
-    angular.forEach($scope.awesomeThings, function(awesomeThing) {
-      awesomeThing.rank = Math.random();
-    });
+    var getRandomFramework = function () {
+
+      $scope.currentFramework = $scope.frameworks[Math.floor(Math.random() * $scope.frameworks.length)];
+    };
+
+    getRandomFramework();
+
+    $scope.ballin = function(){
+      $scope.frameworks.filter(function(item) {
+        return item.key === $scope.currentFramework.key;
+      })[0].points++;
+
+      getRandomFramework();
+    }
+
+    $scope.busted = function(){
+      $scope.frameworks.filter(function(item) {
+        return item.key === $scope.currentFramework.key;
+      })[0].points--;
+
+      getRandomFramework();
+    }
   });
